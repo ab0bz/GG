@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity Asset Store Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.8;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin: 0 auto 25px;
+            background: #444;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #ccc;
+        }
+
+        .section {
+            padding: 50px 40px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .section:last-of-type {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 25px;
+            color: #222;
+            border-bottom: 3px solid #222;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        .about-content {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.9;
+        }
+
+        .about-content p {
+            margin-bottom: 20px;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .contact-item {
+            background: #f9f9f9;
+            padding: 25px;
+            border: 2px solid #222;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover {
+            background: #222;
+            color: white;
+        }
+
+        .contact-icon {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .contact-item h3 {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .contact-item a {
+            color: #222;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-item:hover a {
+            color: white;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            header, .section {
+                padding: 40px 25px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- PRESENTATION -->
+        <header>
+            <div class="profile-img">B</div>
+            <h1>ab0bz</h1>
+            <p class="subtitle">Unity Indie Developer</p>
+        </header>
+
+        <!-- ABOUT ME -->
+        <div class="section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>
+                    I'm an indie developer passionate about Unity and creating assets. I've been working with Unity for about a year, learning and improving my skills every day.
+                </p>
+                <p>
+                    Although I'm relatively new to development, I've dedicated my time to creating tools and resources that can be useful for other developers who are starting their journey, just like me.
+                </p>
+                <p>
+                    My focus is on learning best practices, writing clean code, and creating assets that are easy to use. Every project is an opportunity to grow and improve my skills in C#, Unity, and game development in general.
+                </p>
+                <p>
+                    I'm excited to be part of the Unity community and share my work while continuing to learn from more experienced developers.
+                </p>
+            </div>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="section">
+            <h2>Contact</h2>
+            <p style="font-size: 1.1em; color: #555; margin-bottom: 10px;">
+                If you have questions or want to connect, you can find me here:
+            </p>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <h3>Email</h3>
+                    <a href="1lezemm@gmail.com">1lezemm@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">💬</span>
+                    <h3>Discord</h3>
+                    <p>ab0bz</p>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">🐙</span>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/ab0bz" target="_blank">@ab0bz</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 ab0bz - Unity Indie Developer
+    </footer>
+</body>
+</html>
